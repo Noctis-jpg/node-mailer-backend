@@ -1,1 +1,8 @@
- <span style="color:red">Kırmızı renkli span tagı</span>
+```js
+   parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+   },
+```
